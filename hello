@@ -1,6 +1,1 @@
-nano hello.rou.xml
-nano hello.nod.xml
-nano hello.edg.xml
-netconvert--node-files=hello.nod.xml--edge-files=hello.edg.xml--output-file=hello.net.xml
-sumo-gui -n hello.net.xml -r hello.rou.xml
-sumo-gui -n hello.net.xml
+sumo-gui -c hello.sumocfg
